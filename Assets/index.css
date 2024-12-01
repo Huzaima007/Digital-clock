@@ -121,8 +121,8 @@ h1 {
 
 @media (max-width: 890px) {
     .container {
-        width: 70%; /* Slightly wider for medium screens */
-        padding: 1rem; /* Add padding for breathing space */
+        width: 70%;
+        padding: 1rem; 
     }
 
     .clock {
@@ -132,7 +132,7 @@ h1 {
 
 @media (max-width: 590px) {
     .container {
-        grid-template-rows: auto auto; /* Adjust heights dynamically */
+        grid-template-rows: auto auto; 
         padding: 1.5rem;
     }
 
@@ -143,13 +143,13 @@ h1 {
 
     .box {
         display: grid;
-        grid-gap: 1rem; /* Add spacing between rows */
-        grid-template-rows: repeat(3, 1fr); /* Evenly divide rows */
+        grid-gap: 1rem; 
+        grid-template-rows: repeat(3, 1fr); 
     }
 
     .clock {
-        width: 35vw; /* Slightly larger width */
-        font-size: 3.5rem; /* Scale font size for better readability */
-        margin: 0.5rem auto; /* Center the clock */
+        width: 35vw; 
+        font-size: 3.5rem; 
+        margin: 0.5rem auto; 
     }
 }
